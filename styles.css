@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#instructions {
+  margin: 1em 2em;
+}
+
+#instructions p {
+  margin: 1em 0;
+}
+
+button {
+  border: 1px solid #322f3a;
+  background-color: #ffffff;
+  padding: 0.3em;
+  -webkit-box-shadow: 1px 1px #806e7b;
+          box-shadow: 1px 1px #806e7b;
+  font-size: inherit;
+}
+
+button:hover {
+  background-color: #ececec;
+}
+
+button:active {
+  -webkit-box-shadow: 0 0px #888386;
+          box-shadow: 0 0px #888386;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.hidden {
+  display: none;
+}
+
+#display {
+  border: 1px solid #6e6e6e;
+  margin: 0 3em;
+  padding: 1em;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<title>Random Word Generator</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<section id="instructions">
+	<h1>Random Word Generator</h1>
+		<p>This will generate 30 random words from the 1913 edition of Webster's English Dictionary for you to use as creative prompts: art ideas, story prompts, whatever.</p>
+		<p>Be warned. It's 30 <i>random words</i>, there'll be plenty of weird ones. But that's part of the challenge, huh? ;)</p>
+		<button onclick="getWords(); unhide()">Generate Words</button>
+	</section>
+
+	<section id="results">
+		<div id="display" class="hidden"></div>
+	</section>
+	<script type="text/javascript" src="search.js"></script>
+	<script type="text/javascript" src="dictionary.js"></script>
+</body>
+
+</html>
